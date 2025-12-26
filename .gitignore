@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# next.js
+.next
+out
+
+# caches
+.cache
+.turbo
+*.log
+
+# env files
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
