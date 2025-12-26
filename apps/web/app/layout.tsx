@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/header"
+import ChatWidget from "@/components/ChatWidget"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -57,6 +58,7 @@ export default function RootLayout({
       <body className="font-sans bg-neutral-50 text-neutral-900 overflow-x-hidden">
         <Header />
         <main className="pt-20">{children}</main>
+        <ChatWidget />
       </body>
     </html>
   )
