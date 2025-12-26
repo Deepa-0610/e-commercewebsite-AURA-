@@ -11,7 +11,8 @@
     "build": "turbo build",
     "start": "turbo run start --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
     "turbo": "^1.10.11"
